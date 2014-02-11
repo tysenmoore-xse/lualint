@@ -20,7 +20,12 @@
 lualint performs luac-based static analysis of global variable usage in Lua
 source code.
 
-`Usage: lualint [-r|-s] filename.lua [ [-r|-s] [filename.lua] ...]`
+`Usage: lualint [-r|-s|-m] filename.lua|path [ [-r|-s|-m] [filename.lua|path] ...]`
+
+-m ...... skip missed module warnings
+-r ...... relaxed mode
+-s ...... strict mode   (default)
+
 
 ## Description
 
