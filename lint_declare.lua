@@ -1,6 +1,6 @@
-function declare(s)
+function lint_declare(s)
 end
 
-declare "lint_ignore"
+lint_declare "lint_ignore"
 function lint_ignore(s)
 end

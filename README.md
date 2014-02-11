@@ -1,3 +1,22 @@
+
+## Changes in This Forked Version
+
+- Sorted listing
+- Added -m option to skip missing module warnings
+- Removed warning for use of "_"
+- Added support to pass a path and lint all Lua (requires the use of "ls")
+- Got it working with target HW and Windows
+- Error format changed to match Visual Studio to make jumping to errors seemless in Visual Studio and SlickEdit.
+- Cleaned up displaying errors during compilation
+- Added error summaries
+- Added some more keywords to ignore
+- Changed the "declare" to "lint_declare"
+- Ignore the "lint_declare" keyword for "lint_decalre/lint_ignore"
+- Added multiple arg support for "lint_ignore" (lint_ignore("arg1","arg2")
+- Some code cleanup
+
+----------------------------------------------------------------------------
+
 lualint performs luac-based static analysis of global variable usage in Lua
 source code.
 
